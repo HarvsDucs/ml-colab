@@ -63,7 +63,7 @@ export default function Dashboard() {
               </div>
             ) : (
               <div className="text-center py-8">
-                <p className="text-gray-500">You haven't created any projects yet.</p>
+                <p className="text-gray-500">You haven&apos;t created any projects yet.</p>
                 <Button variant="primary" className="mt-4">
                   Create Your First Project
                 </Button>
@@ -73,7 +73,7 @@ export default function Dashboard() {
 
           <div className="bg-white rounded-xl shadow-sm p-6 mt-6">
             <div className="flex justify-between items-center mb-4">
-              <h2 className="text-xl font-semibold text-gray-900">Projects I'm Collaborating On</h2>
+              <h2 className="text-xl font-semibold text-gray-900">Projects I{'"'}m Collaborating On</h2>
               <Link href="/explore" className="text-blue-600 hover:text-blue-800 text-sm font-medium">
                 Find More
               </Link>
@@ -87,7 +87,7 @@ export default function Dashboard() {
               </div>
             ) : (
               <div className="text-center py-8">
-                <p className="text-gray-500">You're not collaborating on any projects yet.</p>
+                <p className="text-gray-500">You{"'"}re not collaborating on any projects yet.</p>
                 <Link href="/explore">
                   <Button variant="primary" className="mt-4">
                     Explore Projects

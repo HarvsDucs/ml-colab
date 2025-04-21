@@ -243,7 +243,7 @@ const ProjectVoting: React.FC = () => {
     <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md mb-6 sm:mb-8">
       <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Project Voting</h2>
       <p className="text-sm sm:text-base text-gray-600 mb-4">
-        Vote on which projects you'd like to see developed next. The top 3 most voted projects will be prioritized for development.
+        Vote on which projects you{'\u0027'}d like to see developed next. The top 3 most voted projects will be prioritized for development.
       </p>
 
       {topProjects.length > 0 && (
@@ -270,7 +270,7 @@ const ProjectVoting: React.FC = () => {
       {hasVoted ? (
         <div className="bg-green-50 p-3 sm:p-4 rounded-md">
           <p className="text-sm sm:text-base text-green-700">
-            Thank you for your vote! You've already participated in the project voting.
+            Thank you for your vote! You{"'"}ve already participated in the project voting.
           </p>
           {customIdea && (
             <div className="mt-2">
@@ -325,7 +325,7 @@ const ProjectVoting: React.FC = () => {
 
           <div className="mb-4 sm:mb-6">
             <label htmlFor="customIdea" className="block text-sm font-medium text-gray-700 mb-1">
-              Don't see a project you're interested in? Suggest your own:
+              Don{"'"}t see a project you{"'"}re interested in? Suggest your own:
             </label>
             <textarea
               id="customIdea"

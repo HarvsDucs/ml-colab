@@ -145,8 +145,14 @@ export default async function AboutPage() {
           <div className="my-12 bg-blue-50 p-8 rounded-xl shadow-sm">
             <h2 className="text-2xl font-bold text-center mb-6">Join Our Community</h2>
             <p className="text-lg text-center mb-6 max-w-2xl mx-auto leading-relaxed">
-              Whether you're looking to contribute to exciting projects or find collaborators for your own, 
+              Whether you{'"'}re looking to contribute to exciting projects or find collaborators for your own, 
               ML-Colab is the place to connect with like-minded data professionals.
+            </p>
+            <p className="mt-4 text-gray-600">
+              Our platform is designed to make collaboration easy and effective. We believe that open source projects thrive when talented individuals can connect and contribute their unique skills.
+            </p>
+            <p className="mt-4 text-gray-600">
+              Whether you{'"'}re a seasoned data scientist or just starting your journey in data engineering, ML-Colab provides the tools and community you need to make an impact.
             </p>
             <div className="flex justify-center">
               {user ? (
